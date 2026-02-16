@@ -3,6 +3,7 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field, computed_field
 from typing import Annotated, Literal
 import json
+
 app = FastAPI()
 
 class Patient(BaseModel):
